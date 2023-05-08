@@ -1,0 +1,22 @@
+.Modal {
+  width: 100%;
+  height: 100em;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.Modal--content {
+  margin-bottom: 20px;
+  position: relative;
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  background-color: red;
+  color: white;
+
+  &-header {
+    margin: 0;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #a52a2a;
+  }
+}

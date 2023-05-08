@@ -1,0 +1,14 @@
+.button {
+  border-width: 0.5px;
+  padding: 8px;
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+  margin: 10px;
+  &--close {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    border: none;
+  }
+}

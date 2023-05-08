@@ -1,0 +1,129 @@
+.main-header {
+  margin-top: 63px;
+}
+.container {
+  max-width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.main-header-logo {
+  text-decoration: none;
+  font-size: 80px;
+  line-height: 94px;
+  color: #000000;
+}
+.accent-color {
+  color: #4bcaff;
+}
+.main-header-navbar {
+  padding: 0;
+  display: flex;
+  background-color: #35444f;
+  justify-content: center;
+  list-style: none;
+  margin-top: 38px;
+}
+.main-header-navbar-item {
+  border-left: 1px solid #fff;
+  padding-top: 26px;
+  padding-bottom: 19px;
+  padding-left: 33px;
+  padding-right: 35px;
+}
+.main-header-navbar-item:last-child {
+  border-right: 1px solid #fff;
+}
+.main-header-navbar-item:hover {
+  background-color: #222f3a;
+}
+.main-header-navbar-link {
+  text-decoration: none;
+  font-size: 24px;
+  line-height: 28px;
+  color: #ffffff;
+}
+.mainly {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+.aside-menu {
+  min-width: 345px;
+}
+.aside-menu-list {
+  margin: 0;
+  list-style: none;
+  border: 1px solid #000000;
+  padding-top: 26px;
+  padding-left: 42px;
+  padding-bottom: 30px;
+}
+.aside-menu-item {
+  margin-bottom: 52px;
+}
+.aside-menu-item:last-child {
+  margin-bottom: 0;
+}
+.aside-menu-item-link {
+  text-decoration: none;
+  font-size: 27px;
+  line-height: 27px;
+  color: #485863;
+}
+.main-content {
+  max-width: 885px;
+}
+.main-content-wrapper-image {
+  width: 885px;
+  height: 529px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #000000;
+  margin-bottom: 37px;
+}
+.main-content-text {
+  font-size: 18px;
+  line-height: 24px;
+  color: #2c2c2c;
+  margin-top: 0;
+  margin-bottom: 34px;
+}
+.footer {
+  margin-bottom: 30px;
+}
+.footer-navbar {
+  margin: 0;
+  display: flex;
+  /* justify-content: space-between; */
+  background-color: rgba(99, 105, 110, 0.48);
+  list-style: none;
+  padding: 20px 40px;
+}
+.footer-navbar-item {
+  margin-right: 35px;
+}
+.footer-navbar-item:last-child {
+  margin-left: 135px;
+  margin-right: 0;
+}
+.footer-navbar-link {
+  text-decoration: none;
+  font-size: 28px;
+  line-height: 28px;
+  color: #0c1927;
+}
+
+.footer-copyright {
+  /* margin: 0; */
+  font-size: 24px;
+  line-height: 24px;
+  color: #010101;
+}
+.footer-navbar-link:hover {
+  color: #3181a6;
+  border-bottom: 1px solid #3181a6;
+  padding-top: 13px;
+  padding-bottom: 8px;
+}

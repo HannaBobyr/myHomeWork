@@ -1,0 +1,61 @@
+.card-item {
+  background-color: aliceblue;
+  border-radius: 10px;
+  position: relative;
+  img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  p {
+    margin-left: 10px;
+  }
+  &--name {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 18px;
+  }
+  &--price {
+    font-size: 20px;
+    line-height: 20px;
+  }
+  &--article {
+    font-size: 14px;
+    line-height: 14px;
+    color: #000;
+  }
+  &--color {
+    font-size: 16px;
+    line-height: 16px;
+  }
+  &--btn {
+    cursor: pointer;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 7px;
+    padding: 7px;
+    font-size: 12px;
+  }
+  &--elect {
+    cursor: pointer;
+    position: absolute;
+    top: 7px;
+    right: 10px;
+    color: rgb(234, 255, 0);
+    font-size: 30px;
+    background-color: transparent;
+    border: none;
+  }
+}
+.btn-delete {
+  cursor: pointer;
+  position: absolute;
+  top: 7px;
+  right: 10px;
+  font-size: 20px;
+  color: red;
+  border: none;
+  background-color: transparent;
+}

@@ -1,0 +1,52 @@
+.cart-wrapper {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  width: 900px;
+  margin: 20px auto;
+}
+.form-header {
+  font-size: 20px;
+  line-height: 20px;
+  color: #434343;
+}
+.cards--cart {
+  display: grid;
+  grid-template-columns: repeat(2, 250px);
+  padding: 0;
+  gap: 15px;
+  list-style: none;
+  margin: 0;
+  align-content: start;
+}
+.form-cart {
+  align-self: start;
+  display: flex;
+  flex-direction: column;
+  background: #ffffff;
+  box-shadow: 0px 4px 18px rgba(0, 0, 0, 0.52);
+  padding: 60px;
+}
+.form-input {
+  border: 1px solid #f2f2f2;
+  border-radius: 4px;
+  margin: 10px;
+  padding: 12px;
+  background: #ffffff;
+}
+.form-input:focus {
+  box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.21);
+  outline: none;
+}
+.btn--form {
+  background: aliceblue;
+  border-radius: 4px;
+  color: #000;
+  border: none;
+  padding: 15px 50px;
+  border: 1.2px solid #f2f2f2;
+  cursor: pointer;
+}
+.errorMessage {
+  margin: 0;
+  color: red;
+}

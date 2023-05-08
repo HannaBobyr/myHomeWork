@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test Buttons Matches snapshot 1`] = `
+<button
+  className="button"
+  data-testid="button"
+  style={
+    Object {
+      "backgroundColor": "rgb(90, 178, 255)",
+    }
+  }
+  type="button"
+>
+  OK
+</button>
+`;

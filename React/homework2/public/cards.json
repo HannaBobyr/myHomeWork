@@ -1,0 +1,79 @@
+[
+  {
+    "name": "Bedroom Loft",
+    "price": 123,
+    "img": "https://meb-online.ru/upload/resize_cache/iblock/009/530_530_140cd750bba9870f18aada2478b24840a/spalnya_teana_variant_2.png",
+    "article": 1,
+    "color": "milky"
+  },
+  {
+    "name": "Bedroom Modena Domani ",
+    "price": 19,
+    "img": "https://meb-online.ru/upload/resize_cache/iblock/e59/530_530_140cd750bba9870f18aada2478b24840a/spalnya_modena_domani_variant_5.png",
+    "article": 2,
+    "color": "milky"
+  },
+  {
+    "name": "Youth Aphrodite",
+    "price": 8,
+    "img": "https://meb-online.ru/upload/resize_cache/iblock/1f4/530_530_140cd750bba9870f18aada2478b24840a/molodyezhnaya_afrodita.jpg",
+    "article": 3,
+    "color": "milky"
+  },
+  {
+    "name": "Bedroom Valencia",
+    "price": 22,
+    "img": "https://meb-online.ru/upload/resize_cache/iblock/638/530_530_140cd750bba9870f18aada2478b24840a/spalnya_valensiya_variant_3.jpg",
+    "article": 4,
+    "color": "dark-milk"
+  },
+  {
+    "name": "Bedroom Antalya",
+    "price": 30,
+    "img": "https://meb-online.ru/upload/resize_cache/iblock/90b/530_530_140cd750bba9870f18aada2478b24840a/spalnya_antaliya_variant_1.jpg",
+    "article": 5,
+    "color": "milky"
+  },
+  {
+    "name": "Bedroom Philadelphia",
+    "price": 7,
+    "img": "https://meb-online.ru/upload/iblock/bd4/spalnya_filadelfiya.JPG",
+    "article": 6,
+    "color": "milky"
+  },
+  {
+    "name": "Bedroom Monaco Mebeloni",
+    "price": 23,
+    "img": "https://meb-online.ru/upload/iblock/f67/spalnya_monako_mebeloni_variant_1.jpg",
+    "article": 7,
+    "color": "light-blue"
+  },
+  {
+    "name": "Bedroom Olga",
+    "price": 100,
+    "img": "https://meb-online.ru/upload/resize_cache/iblock/0eb/530_530_140cd750bba9870f18aada2478b24840a/spalnya_olga_1n.jpg",
+    "article": 8,
+    "color": "milky"
+  },
+  {
+    "name": "Bedroom Victor",
+    "price": 16,
+    "img": "https://meb-online.ru/upload/resize_cache/iblock/8f7/530_530_140cd750bba9870f18aada2478b24840a/spalnya_victor_variant_1.jpg",
+    "article": 9,
+    "color": "light-green"
+  },
+  {
+    "name": "Bedroom Aphrodite",
+    "price": 145,
+    "img": "https://meb-online.ru/upload/resize_cache/iblock/ff9/530_530_140cd750bba9870f18aada2478b24840a/spalnya_afrodita_variant_1.jpg",
+    "article": 10,
+    "color": "violet"
+  },
+  {
+    "name": "Bedroom Vegas",
+    "price": 15,
+    "img": "https://meb-online.ru/upload/resize_cache/iblock/588/530_530_140cd750bba9870f18aada2478b24840a/spalnya_vegas_variant_1.jpg",
+    "article": 11,
+    "color": "milky"
+  }
+]

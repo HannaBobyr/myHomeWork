@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up form</title>
+    <link rel="stylesheet" href="./style/normalize.css">
+    <link rel="stylesheet" href="./style/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+</head>
+<body class="body-background">
+    <header class="main-header">
+        <h1 class="header-logo">
+            JOURNEY
+        </h1>
+        <div class="header-right-navbar">
+            <a href="#" class="icon">
+                <img src="./img/calendar.svg" alt="calendar" width="21" height="24" class="img-calendar">
+            </a>
+            <a href="#" class="icon1">
+                <img src="./img/calendar-alt.svg" alt="calendar" width="21" height="24" class="img-calendar-alt">
+            </a>
+            <a href="#" class="icon">
+                <img src="./img/envelope.svg" alt="envelope" width="23" height="23" class="img-envelope">
+            </a>
+            <a href="#" class="icon2">
+                <img src="./img/envelope-alt.svg" alt="envelope" width="23" height="23" class="img-envelope-alt">
+            </a>
+            <a href="#" class="icon">
+                <img src="./img/compass.svg" alt="compass"
+                 width="23" height="23" class="img-compass">
+            </a>
+            <a href="#" class="icon3">
+                <img src="./img/compass-alt.svg" alt="compass" width="23" height="23" class="img-compass-alt">
+            </a>
+            <p class="header-navbar-text">
+                Welcome, <a href="#" class="header-navnar-accent-color">Log In</a> or <a href="#" class="header-navnar-accent-color">Sign Up</a>
+            </p>
+        </div>
+    </header>
+    <main class="main-content">
+        <form class="form-registration">
+            <div class="choice-registration">
+                <a href="#" class="registration-sign-up">
+                    Sign Up
+                </a>
+                <a href="#" class="registration-log-in">
+                    Log In
+                </a>
+            </div>
+            <div class="button-wrapper">
+                <button class="button-choice-registration btn-facebook-color">
+                    <img src="./img/facebook.svg" alt="facebook" width="30" height="19" class="btn-img">
+                    <span class="btn-text">Facebook</span>
+                </button>
+                <button class="button-choice-registration btn-google-color">
+                    <img src="./img/google.svg" alt="google" width="30" height="19" class="btn-img">
+                    <span class="btn-text">Google</span>
+                </button>
+            </div>
+            <p class="choice-text">or</p>
+            <input type="text" id="userName" name="userName" placeholder="Name" class="input-form">
+            <input type="text" name="userLastName" id="userLastName" placeholder="Last Name" class="input-form">
+            <input type="email" name="userEmail" id="userEmail" placeholder="Email" class="input-form">
+            <input type="password" name="userPassword" id="userPassword" placeholder="Choose Password" class="input-form">
+            <input type="password" name="userConfirmPassword" id="userConfirmPassword" placeholder="Confirm Password" class="input-form">
+            <label class="checkbox-agreement">
+                <input type="checkbox" name="useAgreementr" id="useAgreementr">
+                Agree with our <a href="#" class="accent-color">Terms & Conditions</a>
+            </label>
+            <input type="submit" value="Create Account" class="btn-submit">
+        </form>
+    </main>
+</body>
+</html>

@@ -1,0 +1,244 @@
+.main-backround {
+  background-color: #171717;
+}
+
+.container {
+  max-width: 1095px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.main-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 35px;
+  margin-bottom: 96px;
+}
+.contact {
+  padding: 0;
+  margin: 0;
+  width: 320px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+.contact-tel {
+}
+.telephone-number {
+  font-weight: 525;
+  font-size: 15px;
+  line-height: 22px;
+  color: #fff;
+  text-decoration: none;
+}
+.contact-accent {
+  color: #d6af76;
+}
+.contact-call {
+  padding: 8px 19px;
+  border: 1px solid #e4b564;
+}
+.call-btn::before {
+  content: url(../img/Vector.png);
+  width: 8px;
+  height: 8px;
+  margin-right: 8px;
+}
+.call-btn {
+  font-size: 14px;
+  line-height: 22px;
+  color: #e4b564;
+  text-decoration: none;
+}
+.backround-offers {
+  background-image: url(../img/header-bg.jpeg);
+  background-size: cover;
+  padding-top: 10px;
+  margin-bottom: 120px;
+}
+.page-header {
+  margin: 0;
+  font-weight: 525;
+  font-size: 38px;
+  line-height: 21px;
+  color: #ffffff;
+}
+.offers-text {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-weight: 525;
+  font-size: 16px;
+  line-height: 21px;
+  color: #ffffff;
+}
+.offers-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 352px 352px;
+  grid-gap: 23px;
+  grid-template-areas:
+    "offer1 offer1 offer2 offer2 offer3 offer3"
+    "offer4 offer4 offer4 offer5 offer5 offer5";
+}
+.offers-item {
+  font-weight: 525;
+  font-size: 16px;
+  line-height: 21px;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.offer1 {
+  grid-area: offer1;
+  background-color: #634f2c;
+}
+.offer2 {
+  grid-area: offer2;
+  background-color: #b4a385;
+  text-align: center;
+}
+.offer3 {
+  grid-area: offer3;
+  background-color: #e4b564;
+}
+.offer4 {
+  grid-area: offer4;
+  background-color: #635a4a;
+}
+.offer5 {
+  grid-area: offer5;
+  background-color: #b08c4d;
+}
+.machinery-list {
+  padding: 0;
+  margin-top: 71px;
+  margin-bottom: 143px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 700px;
+  list-style: none;
+}
+.machinery-item {
+  font-weight: 375;
+  font-size: 15px;
+  line-height: 17px;
+  color: #ffffff;
+  width: 350px;
+  margin-bottom: 22px;
+  padding-top: 33px;
+  padding-left: 39px;
+}
+.machinery-item1 {
+  height: 234px;
+  background-color: #0e0e0e;
+}
+.machinery-item2 {
+  height: 420px;
+  background-color: #1f1f1f;
+}
+.machinery-item3 {
+  height: 329px;
+  background-color: #242424;
+}
+.machinery-item4 {
+  height: 303px;
+  background-color: #e4b564;
+  color: #000000;
+}
+.machinery-item5 {
+  height: 191px;
+  background-color: #1f1f1f;
+}
+.machinery-item6 {
+  height: 234px;
+  background-color: #0e0e0e;
+}
+.machinery-item7 {
+  height: 207px;
+  background-color: #0a0909;
+}
+.background-project {
+  padding-top: 129px;
+  background-image: url(../img/parallax-bg.jpeg);
+  background-size: cover;
+}
+.project-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 54px;
+}
+.more-projects {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 23px;
+  color: #e4b564;
+  text-decoration: none;
+  border: 1px solid #e4b564;
+  padding: 8px 30px;
+  align-items: center;
+}
+.project-list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 365px 365px;
+}
+.project-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 109px;
+}
+.project-item2-img {
+  display: flex;
+  justify-content: center;
+  max-width: 104px;
+  flex-wrap: wrap;
+}
+.project1 {
+  background-color: #634f2c;
+}
+.project2 {
+  background-color: rgba(232, 210, 171, 0.76);
+}
+.project3 {
+  background-color: #e4b564;
+}
+.project4 {
+  background-color: #635a4a;
+}
+.project5 {
+  background-color: #b08c4d;
+}
+.project6 {
+  background-color: #634f2c;
+}
+.project-text {
+  margin: 0;
+  margin-top: 12px;
+  opacity: 0;
+  font-weight: 450;
+  font-size: 16px;
+  line-height: 21px;
+  text-align: center;
+  max-width: 244px;
+  color: #ffffff;
+}
+.text-bold {
+  font-weight: bold;
+}
+.project-item:hover {
+  padding-top: 0;
+}
+.project-item:hover .project-text {
+  opacity: 1;
+}

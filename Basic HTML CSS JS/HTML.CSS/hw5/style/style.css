@@ -1,0 +1,146 @@
+.main-background {
+  background-image: url(../img/background1.png);
+  background-size: cover;
+}
+.container {
+  max-width: 1030px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.main-header {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+.contact-link:hover {
+  color: #f26522;
+}
+.logo {
+  display: flex;
+  text-decoration: none;
+  position: relative;
+}
+.logo-img-orange {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+}
+.logo:hover .logo-img {
+  opacity: 0;
+}
+.logo:hover .logo-img-orange {
+  opacity: 1;
+}
+.logo:hover .logo-text1 {
+  color: #f26522;
+}
+.logo-text {
+  margin: 0;
+  margin-left: 10px;
+  padding: 0;
+  list-style: none;
+}
+.logo-text1 {
+  font-weight: 700;
+  font-size: 29px;
+  line-height: 29px;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+.small-text {
+  margin-top: 3px;
+  font-size: 18px;
+  line-height: 18px;
+}
+.contact-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.contact-item {
+  margin-bottom: 15px;
+  text-align: right;
+}
+.contact-link {
+  font-size: 18px;
+  line-height: 18px;
+  color: #ffffff;
+  text-decoration: none;
+}
+.offers-list {
+  padding: 0;
+  margin: 0;
+  margin-top: 22px;
+  list-style: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 260px 260px;
+  grid-row-gap: 37px;
+  grid-column-gap: 65px;
+}
+.offers-link {
+  text-decoration: none;
+}
+.offers-text {
+  text-align: center;
+  font-size: 18px;
+  line-height: 18px;
+  color: #ffffff;
+  margin-top: 20px;
+}
+.footer-text {
+  font-size: 12px;
+  line-height: 12px;
+  text-align: center;
+  color: #ffffff;
+  margin-top: 50px;
+}
+.offers-item {
+  position: relative;
+}
+.hover-block {
+  background-color: transparent;
+  position: absolute;
+  top: 161px;
+  z-index: -1;
+  padding-right: 16px;
+  padding-left: 16px;
+  padding-bottom: 12px;
+  width: 300px;
+}
+.hover-block-text1 {
+  font-size: 10px;
+  line-height: 10px;
+  color: #ffffff;
+  margin-bottom: 8px;
+  margin-top: 7px;
+}
+.hover-block-joining {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.hover-block-text2 {
+  font-size: 20px;
+  line-height: 20px;
+  color: #ffffff;
+  margin: 0;
+}
+.hover-block-text3 {
+  font-size: 14px;
+  line-height: 14px;
+  color: #ffffff;
+  margin: 0;
+}
+.hover-block-text3::after {
+  content: url(../img/Vector.svg);
+  margin-left: 16px;
+}
+.offers-item:hover .hover-block {
+  z-index: 1;
+  background-color: #f26522;
+}
+.offers-item:hover .offers-text {
+  color: #f26522;
+}

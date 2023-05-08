@@ -1,0 +1,62 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test Card Items Matches snapshot 1`] = `
+<li
+  className="card-item"
+  style={Object {}}
+>
+  <img
+    alt="Logo"
+    height="170px"
+    src="https://meb-online.ru/upload/resize_cache/iblock/009/530_530_140cd750bba9870f18aada2478b24840a/spalnya_teana_variant_2.png"
+    style={Object {}}
+    width="250px"
+  />
+  <div>
+    <p
+      className="card-item--name"
+    >
+      Bedroom Loft
+    </p>
+    <p
+      className="card-item--price"
+    >
+      price: 
+      123
+      $
+    </p>
+    <button
+      className="card-item--elect"
+      onClick={[Function]}
+      style={Object {}}
+    >
+      ☆
+    </button>
+    <p
+      className="card-item--article"
+    >
+      article: 
+      1
+    </p>
+    <p
+      className="card-item--color"
+    >
+      color: 
+      milky
+    </p>
+    <button
+      className="card-item--btn"
+      data-testid="button"
+      onClick={[Function]}
+      style={
+        Object {
+          "backgroundColor": "antiquewhite",
+        }
+      }
+      type="button"
+    >
+      add to cart
+    </button>
+  </div>
+</li>
+`;
